@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!")
+	printable := "Hello World"
+	printed(printable)
+}
+
+func printed(printValue string) {
+	fmt.Println(printValue)
 }
